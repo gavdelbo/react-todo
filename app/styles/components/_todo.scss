@@ -3,7 +3,7 @@
   cursor: pointer;
   display: flex;
   padding: 1rem;
-  transition: backgroud .3s ease;
+  transition: background .3s ease;
 
   p, input {
     margin: 0;
@@ -14,15 +14,16 @@
   }
 
   &:hover {
-    background-color: #f0f0f0;
+    background: #f0f0f0;
   }
 }
 
-.todo_subtext {
-  color: #999
+.todo__subtext {
+  color: #999;
 }
+
 .todo-completed {
-  p, .todo_subtext {
+  p, .todo-subtext {
     color: $light-color;
     text-decoration: line-through;
   }
